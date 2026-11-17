@@ -1,0 +1,3980 @@
+{
+  "canvas": {
+    "rootId": "c1",
+    "nodes": [
+      {
+        "id": "c1",
+        "parentId": null,
+        "order": 0,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "relative w-full min-h-screen flex flex-col bg-background",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c2_1",
+        "parentId": "c1",
+        "order": 0,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex items-center w-full bg-background border-b border-border",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c3_2",
+        "parentId": "c2_1",
+        "order": 0,
+        "kind": "component",
+        "name": "Navbar",
+        "className": "flex-1 min-w-0 *:w-full *:border-b-0 *:pr-4",
+        "text": null,
+        "attrs": [],
+        "figmaId": null,
+        "componentRef": {
+          "workspaceId": "ws_47b7696bc307",
+          "importPath": "../components/navbar",
+          "exportName": "default",
+          "localName": "Navbar"
+        }
+      },
+      {
+        "id": "c4_3",
+        "parentId": "c2_1",
+        "order": 1,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex items-center gap-2 pr-10 cursor-pointer max-md:pr-4",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c5_4",
+        "parentId": "c4_3",
+        "order": 0,
+        "kind": "component",
+        "name": "Label",
+        "className": "w-auto max-md:hidden",
+        "text": null,
+        "attrs": [],
+        "figmaId": null,
+        "componentRef": {
+          "workspaceId": "ws_30c84e960117",
+          "importPath": "../components/ui/label",
+          "exportName": "default",
+          "localName": "Label",
+          "props": {
+            "text": "Dark mode"
+          }
+        }
+      },
+      {
+        "id": "c6_5",
+        "parentId": "c4_3",
+        "order": 1,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "w-auto",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c7_6",
+        "parentId": "c6_5",
+        "order": 0,
+        "kind": "button",
+        "name": "Switch",
+        "className": "inline-flex h-[18px] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 bg-input",
+        "text": "",
+        "attrs": [
+          {
+            "name": "type",
+            "value": "button"
+          },
+          {
+            "name": "role",
+            "value": "switch"
+          },
+          {
+            "name": "aria-checked",
+            "value": "false"
+          }
+        ],
+        "figmaId": null,
+        "usesComponent": {
+          "name": "Switch",
+          "path": "components/acme/components/ui/switch.tsx",
+          "workspaceId": "ws_54fd296e4ea3",
+          "file": "components/acme/pages/home.tsx",
+          "at": 1938,
+          "props": [
+            {
+              "name": "initialState",
+              "value": null,
+              "set": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "c8_7",
+        "parentId": "c7_6",
+        "order": 0,
+        "kind": "box",
+        "name": "Box",
+        "className": "block size-4 rounded-full bg-background shadow-sm transition-transform translate-x-0",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c3",
+        "parentId": "c1",
+        "order": 1,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex flex-col items-center gap-6 px-10 pt-24 pb-20 text-center max-md:px-4 max-md:pt-12 max-md:pb-12",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c4",
+        "parentId": "c3",
+        "order": 0,
+        "kind": "component",
+        "name": "Badge",
+        "className": "w-auto",
+        "text": null,
+        "attrs": [],
+        "figmaId": null,
+        "componentRef": {
+          "workspaceId": "ws_826ed6b17dc4",
+          "importPath": "../components/ui/badge",
+          "exportName": "default",
+          "localName": "Badge",
+          "props": {
+            "label": "New: team workspaces"
+          },
+          "variant": "secondary"
+        }
+      },
+      {
+        "id": "c5",
+        "parentId": "c3",
+        "order": 1,
+        "kind": "text",
+        "name": "Plan, design and ship toget…",
+        "className": "max-w-[720px] text-style-6xl font-extrabold tracking-tight text-foreground max-md:text-style-4xl",
+        "text": "Plan, design and ship together",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c6",
+        "parentId": "c3",
+        "order": 2,
+        "kind": "text",
+        "name": "Acme keeps your team's desi…",
+        "className": "max-w-[560px] text-style-lg text-muted-foreground max-md:text-style-base",
+        "text": "Acme keeps your team's designs, code and feedback in one place.",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c7",
+        "parentId": "c3",
+        "order": 3,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex items-center gap-3 max-md:flex-col max-md:w-full",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c8",
+        "parentId": "c7",
+        "order": 0,
+        "kind": "component",
+        "name": "Button",
+        "className": "w-auto max-md:w-full",
+        "text": null,
+        "attrs": [
+          {
+            "name": "href",
+            "value": "/pricing"
+          }
+        ],
+        "figmaId": null,
+        "componentRef": {
+          "workspaceId": "ws_9169ad6fc665",
+          "importPath": "../components/ui/button",
+          "exportName": "default",
+          "localName": "Button",
+          "props": {
+            "label": "See pricing"
+          },
+          "variant": "variantDefaultSizeLarge"
+        }
+      },
+      {
+        "id": "c9",
+        "parentId": "c7",
+        "order": 1,
+        "kind": "component",
+        "name": "Button",
+        "className": "w-auto max-md:w-full",
+        "text": null,
+        "attrs": [
+          {
+            "name": "href",
+            "value": "/sign-up"
+          }
+        ],
+        "figmaId": null,
+        "componentRef": {
+          "workspaceId": "ws_9169ad6fc665",
+          "importPath": "../components/ui/button",
+          "exportName": "default",
+          "localName": "Button",
+          "props": {
+            "label": "Create account"
+          },
+          "variant": "variantOutlineSizeLarge"
+        }
+      },
+      {
+        "id": "c10",
+        "parentId": "c1",
+        "order": 2,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "grid grid-cols-3 gap-6 w-full max-w-[1080px] mx-auto px-10 pb-24 max-md:grid-cols-1 max-md:px-4 max-md:pb-12",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c11",
+        "parentId": "c10",
+        "order": 0,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "w-full *:w-full cursor-pointer",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c12",
+        "parentId": "c11",
+        "order": 0,
+        "kind": "frame",
+        "name": "Card",
+        "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+        "text": null,
+        "attrs": [],
+        "figmaId": null,
+        "usesComponent": {
+          "name": "Card",
+          "path": "components/acme/components/ui/card.tsx",
+          "workspaceId": "ws_a107fcb1100c",
+          "file": "components/acme/pages/home.tsx",
+          "at": 3324,
+          "props": [
+            {
+              "name": "title",
+              "value": "Design together",
+              "set": true
+            },
+            {
+              "name": "description",
+              "value": "One canvas for everyone",
+              "set": true
+            },
+            {
+              "name": "content",
+              "value": "Everyone edits the same canvas, with comments right on the design.",
+              "set": true
+            },
+            {
+              "name": "showFooter",
+              "value": "false",
+              "set": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "c13",
+        "parentId": "c12",
+        "order": 0,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex flex-col gap-1.5 px-6",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c14",
+        "parentId": "c13",
+        "order": 0,
+        "kind": "text",
+        "name": "Design together",
+        "className": "text-style-base leading-none font-semibold",
+        "text": "Design together",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c15",
+        "parentId": "c13",
+        "order": 1,
+        "kind": "text",
+        "name": "One canvas for everyone",
+        "className": "text-style-sm text-muted-foreground",
+        "text": "One canvas for everyone",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c16",
+        "parentId": "c12",
+        "order": 1,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "px-6",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c17",
+        "parentId": "c16",
+        "order": 0,
+        "kind": "text",
+        "name": "Everyone edits the same can…",
+        "className": "text-style-sm",
+        "text": "Everyone edits the same canvas, with comments right on the design.",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c18",
+        "parentId": "c10",
+        "order": 1,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "w-full *:w-full cursor-pointer",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c19",
+        "parentId": "c18",
+        "order": 0,
+        "kind": "frame",
+        "name": "Card",
+        "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+        "text": null,
+        "attrs": [],
+        "figmaId": null,
+        "usesComponent": {
+          "name": "Card",
+          "path": "components/acme/components/ui/card.tsx",
+          "workspaceId": "ws_a107fcb1100c",
+          "file": "components/acme/pages/home.tsx",
+          "at": 3590,
+          "props": [
+            {
+              "name": "title",
+              "value": "Real code",
+              "set": true
+            },
+            {
+              "name": "description",
+              "value": "React and Tailwind",
+              "set": true
+            },
+            {
+              "name": "content",
+              "value": "Every change is code you can open as a pull request.",
+              "set": true
+            },
+            {
+              "name": "showFooter",
+              "value": "false",
+              "set": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "c20",
+        "parentId": "c19",
+        "order": 0,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex flex-col gap-1.5 px-6",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c21",
+        "parentId": "c20",
+        "order": 0,
+        "kind": "text",
+        "name": "Real code",
+        "className": "text-style-base leading-none font-semibold",
+        "text": "Real code",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c22",
+        "parentId": "c20",
+        "order": 1,
+        "kind": "text",
+        "name": "React and Tailwind",
+        "className": "text-style-sm text-muted-foreground",
+        "text": "React and Tailwind",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c23",
+        "parentId": "c19",
+        "order": 1,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "px-6",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c24",
+        "parentId": "c23",
+        "order": 0,
+        "kind": "text",
+        "name": "Every change is code you ca…",
+        "className": "text-style-sm",
+        "text": "Every change is code you can open as a pull request.",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c25",
+        "parentId": "c10",
+        "order": 2,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "w-full *:w-full cursor-pointer",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c26",
+        "parentId": "c25",
+        "order": 0,
+        "kind": "frame",
+        "name": "Card",
+        "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+        "text": null,
+        "attrs": [],
+        "figmaId": null,
+        "usesComponent": {
+          "name": "Card",
+          "path": "components/acme/components/ui/card.tsx",
+          "workspaceId": "ws_a107fcb1100c",
+          "file": "components/acme/pages/home.tsx",
+          "at": 3834,
+          "props": [
+            {
+              "name": "title",
+              "value": "Ask the agent",
+              "set": true
+            },
+            {
+              "name": "description",
+              "value": "Changes in plain words",
+              "set": true
+            },
+            {
+              "name": "content",
+              "value": "Describe a change and the agent updates the design and the code.",
+              "set": true
+            },
+            {
+              "name": "showFooter",
+              "value": "false",
+              "set": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "c27",
+        "parentId": "c26",
+        "order": 0,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex flex-col gap-1.5 px-6",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c28",
+        "parentId": "c27",
+        "order": 0,
+        "kind": "text",
+        "name": "Ask the agent",
+        "className": "text-style-base leading-none font-semibold",
+        "text": "Ask the agent",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c29",
+        "parentId": "c27",
+        "order": 1,
+        "kind": "text",
+        "name": "Changes in plain words",
+        "className": "text-style-sm text-muted-foreground",
+        "text": "Changes in plain words",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c30",
+        "parentId": "c26",
+        "order": 1,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "px-6",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c31",
+        "parentId": "c30",
+        "order": 0,
+        "kind": "text",
+        "name": "Describe a change and the a…",
+        "className": "text-style-sm",
+        "text": "Describe a change and the agent updates the design and the code.",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c32",
+        "parentId": "c1",
+        "order": 3,
+        "kind": "frame",
+        "name": "Frame",
+        "className": "flex flex-col items-center gap-4 w-full px-10 py-20 bg-muted text-center max-md:px-4 max-md:py-12",
+        "text": null,
+        "attrs": [],
+        "figmaId": null
+      },
+      {
+        "id": "c33",
+        "parentId": "c32",
+        "order": 0,
+        "kind": "text",
+        "name": "Ready to ship with your tea…",
+        "className": "text-style-3xl font-semibold tracking-tight text-foreground max-md:text-style-2xl",
+        "text": "Ready to ship with your team?",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c34",
+        "parentId": "c32",
+        "order": 1,
+        "kind": "text",
+        "name": "Start free. Invite your tea…",
+        "className": "text-style-base text-foreground",
+        "text": "Start free. Invite your team when you're ready.",
+        "attrs": [],
+        "figmaId": null,
+        "tag": "p"
+      },
+      {
+        "id": "c35",
+        "parentId": "c32",
+        "order": 2,
+        "kind": "component",
+        "name": "Button",
+        "className": "w-auto max-md:w-full",
+        "text": null,
+        "attrs": [
+          {
+            "name": "href",
+            "value": "/sign-up"
+          }
+        ],
+        "figmaId": null,
+        "componentRef": {
+          "workspaceId": "ws_9169ad6fc665",
+          "importPath": "../components/ui/button",
+          "exportName": "default",
+          "localName": "Button",
+          "props": {
+            "label": "Get started"
+          },
+          "variant": "variantDefaultSizeLarge"
+        }
+      },
+      {
+        "id": "c36",
+        "parentId": "c1",
+        "order": 4,
+        "kind": "component",
+        "name": "Footer",
+        "className": "w-full",
+        "text": null,
+        "attrs": [],
+        "figmaId": null,
+        "componentRef": {
+          "workspaceId": "ws_86c3dc346c68",
+          "importPath": "../components/footer",
+          "exportName": "default",
+          "localName": "Footer"
+        }
+      }
+    ]
+  },
+  "states": [
+    {
+      "id": "state_21a6bba2491b",
+      "name": "Design together",
+      "canvas": {
+        "rootId": "c1",
+        "nodes": [
+          {
+            "id": "c1",
+            "parentId": null,
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "relative w-full min-h-screen flex flex-col bg-background",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c2_1",
+            "parentId": "c1",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center w-full bg-background border-b border-border",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3_2",
+            "parentId": "c2_1",
+            "order": 0,
+            "kind": "component",
+            "name": "Navbar",
+            "className": "flex-1 min-w-0 *:w-full *:border-b-0 *:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_47b7696bc307",
+              "importPath": "../components/navbar",
+              "exportName": "default",
+              "localName": "Navbar"
+            }
+          },
+          {
+            "id": "c4_3",
+            "parentId": "c2_1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-2 pr-10 cursor-pointer max-md:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c5_4",
+            "parentId": "c4_3",
+            "order": 0,
+            "kind": "component",
+            "name": "Label",
+            "className": "w-auto max-md:hidden",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_30c84e960117",
+              "importPath": "../components/ui/label",
+              "exportName": "default",
+              "localName": "Label",
+              "props": {
+                "text": "Dark mode"
+              }
+            }
+          },
+          {
+            "id": "c6_5",
+            "parentId": "c4_3",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c7_6",
+            "parentId": "c6_5",
+            "order": 0,
+            "kind": "button",
+            "name": "Switch",
+            "className": "inline-flex h-[18px] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 bg-input",
+            "text": "",
+            "attrs": [
+              {
+                "name": "type",
+                "value": "button"
+              },
+              {
+                "name": "role",
+                "value": "switch"
+              },
+              {
+                "name": "aria-checked",
+                "value": "false"
+              }
+            ],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Switch",
+              "path": "components/acme/components/ui/switch.tsx",
+              "workspaceId": "ws_54fd296e4ea3",
+              "file": "components/acme/pages/home.tsx",
+              "at": 1938,
+              "props": [
+                {
+                  "name": "initialState",
+                  "value": null,
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c8_7",
+            "parentId": "c7_6",
+            "order": 0,
+            "kind": "box",
+            "name": "Box",
+            "className": "block size-4 rounded-full bg-background shadow-sm transition-transform translate-x-0",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3",
+            "parentId": "c1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-6 px-10 pt-24 pb-20 text-center max-md:px-4 max-md:pt-12 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c4",
+            "parentId": "c3",
+            "order": 0,
+            "kind": "component",
+            "name": "Badge",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_826ed6b17dc4",
+              "importPath": "../components/ui/badge",
+              "exportName": "default",
+              "localName": "Badge",
+              "props": {
+                "label": "New: team workspaces"
+              },
+              "variant": "secondary"
+            }
+          },
+          {
+            "id": "c5",
+            "parentId": "c3",
+            "order": 1,
+            "kind": "text",
+            "name": "Plan, design and ship toget…",
+            "className": "max-w-[720px] text-style-6xl font-extrabold tracking-tight text-foreground max-md:text-style-4xl",
+            "text": "Plan, design and ship together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c6",
+            "parentId": "c3",
+            "order": 2,
+            "kind": "text",
+            "name": "Acme keeps your team's desi…",
+            "className": "max-w-[560px] text-style-lg text-muted-foreground max-md:text-style-base",
+            "text": "Acme keeps your team's designs, code and feedback in one place.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c7",
+            "parentId": "c3",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-3 max-md:flex-col max-md:w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c8",
+            "parentId": "c7",
+            "order": 0,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/pricing"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "See pricing"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c9",
+            "parentId": "c7",
+            "order": 1,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Create account"
+              },
+              "variant": "variantOutlineSizeLarge"
+            }
+          },
+          {
+            "id": "c10",
+            "parentId": "c1",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "grid grid-cols-3 gap-6 w-full max-w-[1080px] mx-auto px-10 pb-24 max-md:grid-cols-1 max-md:px-4 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c11",
+            "parentId": "c10",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c12",
+            "parentId": "c11",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3324,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Design together",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "One canvas for everyone",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Everyone edits the same canvas, with comments right on the design.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c13",
+            "parentId": "c12",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c14",
+            "parentId": "c13",
+            "order": 0,
+            "kind": "text",
+            "name": "Design together",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Design together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c15",
+            "parentId": "c13",
+            "order": 1,
+            "kind": "text",
+            "name": "One canvas for everyone",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "One canvas for everyone",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c16",
+            "parentId": "c12",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c17",
+            "parentId": "c16",
+            "order": 0,
+            "kind": "text",
+            "name": "Everyone edits the same can…",
+            "className": "text-style-sm",
+            "text": "Everyone edits the same canvas, with comments right on the design.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c18",
+            "parentId": "c10",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c19",
+            "parentId": "c18",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3590,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Real code",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "React and Tailwind",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Every change is code you can open as a pull request.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c20",
+            "parentId": "c19",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c21",
+            "parentId": "c20",
+            "order": 0,
+            "kind": "text",
+            "name": "Real code",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Real code",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c22",
+            "parentId": "c20",
+            "order": 1,
+            "kind": "text",
+            "name": "React and Tailwind",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "React and Tailwind",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c23",
+            "parentId": "c19",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c24",
+            "parentId": "c23",
+            "order": 0,
+            "kind": "text",
+            "name": "Every change is code you ca…",
+            "className": "text-style-sm",
+            "text": "Every change is code you can open as a pull request.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c25",
+            "parentId": "c10",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c26",
+            "parentId": "c25",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3834,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Ask the agent",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "Changes in plain words",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Describe a change and the agent updates the design and the code.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c27",
+            "parentId": "c26",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c28",
+            "parentId": "c27",
+            "order": 0,
+            "kind": "text",
+            "name": "Ask the agent",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Ask the agent",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c29",
+            "parentId": "c27",
+            "order": 1,
+            "kind": "text",
+            "name": "Changes in plain words",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "Changes in plain words",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c30",
+            "parentId": "c26",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c31",
+            "parentId": "c30",
+            "order": 0,
+            "kind": "text",
+            "name": "Describe a change and the a…",
+            "className": "text-style-sm",
+            "text": "Describe a change and the agent updates the design and the code.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c32",
+            "parentId": "c1",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-4 w-full px-10 py-20 bg-muted text-center max-md:px-4 max-md:py-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c33",
+            "parentId": "c32",
+            "order": 0,
+            "kind": "text",
+            "name": "Ready to ship with your tea…",
+            "className": "text-style-3xl font-semibold tracking-tight text-foreground max-md:text-style-2xl",
+            "text": "Ready to ship with your team?",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c34",
+            "parentId": "c32",
+            "order": 1,
+            "kind": "text",
+            "name": "Start free. Invite your tea…",
+            "className": "text-style-base text-foreground",
+            "text": "Start free. Invite your team when you're ready.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c35",
+            "parentId": "c32",
+            "order": 2,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Get started"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c36",
+            "parentId": "c1",
+            "order": 4,
+            "kind": "component",
+            "name": "Footer",
+            "className": "w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_86c3dc346c68",
+              "importPath": "../components/footer",
+              "exportName": "default",
+              "localName": "Footer"
+            }
+          },
+          {
+            "id": "c43",
+            "parentId": "c1",
+            "order": 5,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c44",
+            "parentId": "c43",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-auto max-w-full *:max-w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c45",
+            "parentId": "c44",
+            "order": 0,
+            "kind": "frame",
+            "name": "AlertDialog",
+            "className": "flex flex-col gap-4 rounded-lg border border-border bg-background p-6 shadow-lg w-[512px]",
+            "text": null,
+            "attrs": [
+              {
+                "name": "role",
+                "value": "alertdialog"
+              }
+            ],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "AlertDialog",
+              "path": "components/acme/components/ui/alert-dialog.tsx",
+              "workspaceId": "ws_3a0ac9a87e90",
+              "file": "components/acme/pages/home.tsx",
+              "at": 4968,
+              "props": [
+                {
+                  "name": "title",
+                  "value": null,
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": null,
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c46",
+            "parentId": "c45",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-2",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c47",
+            "parentId": "c46",
+            "order": 0,
+            "kind": "text",
+            "name": "Design together",
+            "className": "text-style-lg leading-none font-semibold text-foreground",
+            "text": "Design together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c48",
+            "parentId": "c46",
+            "order": 1,
+            "kind": "text",
+            "name": "Everyone edits the same can…",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "Everyone edits the same canvas, with comments right on the design.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c49",
+            "parentId": "c45",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex justify-end gap-2",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c50",
+            "parentId": "c49",
+            "order": 0,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "./button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Cancel"
+              },
+              "variant": "variantOutlineSizeDefault"
+            }
+          },
+          {
+            "id": "c51",
+            "parentId": "c49",
+            "order": 1,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "./button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Continue"
+              }
+            }
+          }
+        ]
+      },
+      "code": {
+        "key": "state@1086",
+        "value": "designTogether"
+      }
+    },
+    {
+      "id": "state_966cdd0c1a58",
+      "name": "Real code",
+      "canvas": {
+        "rootId": "c1",
+        "nodes": [
+          {
+            "id": "c1",
+            "parentId": null,
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "relative w-full min-h-screen flex flex-col bg-background",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c2_1",
+            "parentId": "c1",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center w-full bg-background border-b border-border",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3_2",
+            "parentId": "c2_1",
+            "order": 0,
+            "kind": "component",
+            "name": "Navbar",
+            "className": "flex-1 min-w-0 *:w-full *:border-b-0 *:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_47b7696bc307",
+              "importPath": "../components/navbar",
+              "exportName": "default",
+              "localName": "Navbar"
+            }
+          },
+          {
+            "id": "c4_3",
+            "parentId": "c2_1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-2 pr-10 cursor-pointer max-md:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c5_4",
+            "parentId": "c4_3",
+            "order": 0,
+            "kind": "component",
+            "name": "Label",
+            "className": "w-auto max-md:hidden",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_30c84e960117",
+              "importPath": "../components/ui/label",
+              "exportName": "default",
+              "localName": "Label",
+              "props": {
+                "text": "Dark mode"
+              }
+            }
+          },
+          {
+            "id": "c6_5",
+            "parentId": "c4_3",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c7_6",
+            "parentId": "c6_5",
+            "order": 0,
+            "kind": "button",
+            "name": "Switch",
+            "className": "inline-flex h-[18px] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 bg-input",
+            "text": "",
+            "attrs": [
+              {
+                "name": "type",
+                "value": "button"
+              },
+              {
+                "name": "role",
+                "value": "switch"
+              },
+              {
+                "name": "aria-checked",
+                "value": "false"
+              }
+            ],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Switch",
+              "path": "components/acme/components/ui/switch.tsx",
+              "workspaceId": "ws_54fd296e4ea3",
+              "file": "components/acme/pages/home.tsx",
+              "at": 1938,
+              "props": [
+                {
+                  "name": "initialState",
+                  "value": null,
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c8_7",
+            "parentId": "c7_6",
+            "order": 0,
+            "kind": "box",
+            "name": "Box",
+            "className": "block size-4 rounded-full bg-background shadow-sm transition-transform translate-x-0",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3",
+            "parentId": "c1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-6 px-10 pt-24 pb-20 text-center max-md:px-4 max-md:pt-12 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c4",
+            "parentId": "c3",
+            "order": 0,
+            "kind": "component",
+            "name": "Badge",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_826ed6b17dc4",
+              "importPath": "../components/ui/badge",
+              "exportName": "default",
+              "localName": "Badge",
+              "props": {
+                "label": "New: team workspaces"
+              },
+              "variant": "secondary"
+            }
+          },
+          {
+            "id": "c5",
+            "parentId": "c3",
+            "order": 1,
+            "kind": "text",
+            "name": "Plan, design and ship toget…",
+            "className": "max-w-[720px] text-style-6xl font-extrabold tracking-tight text-foreground max-md:text-style-4xl",
+            "text": "Plan, design and ship together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c6",
+            "parentId": "c3",
+            "order": 2,
+            "kind": "text",
+            "name": "Acme keeps your team's desi…",
+            "className": "max-w-[560px] text-style-lg text-muted-foreground max-md:text-style-base",
+            "text": "Acme keeps your team's designs, code and feedback in one place.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c7",
+            "parentId": "c3",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-3 max-md:flex-col max-md:w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c8",
+            "parentId": "c7",
+            "order": 0,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/pricing"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "See pricing"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c9",
+            "parentId": "c7",
+            "order": 1,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Create account"
+              },
+              "variant": "variantOutlineSizeLarge"
+            }
+          },
+          {
+            "id": "c10",
+            "parentId": "c1",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "grid grid-cols-3 gap-6 w-full max-w-[1080px] mx-auto px-10 pb-24 max-md:grid-cols-1 max-md:px-4 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c11",
+            "parentId": "c10",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c12",
+            "parentId": "c11",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3324,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Design together",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "One canvas for everyone",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Everyone edits the same canvas, with comments right on the design.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c13",
+            "parentId": "c12",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c14",
+            "parentId": "c13",
+            "order": 0,
+            "kind": "text",
+            "name": "Design together",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Design together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c15",
+            "parentId": "c13",
+            "order": 1,
+            "kind": "text",
+            "name": "One canvas for everyone",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "One canvas for everyone",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c16",
+            "parentId": "c12",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c17",
+            "parentId": "c16",
+            "order": 0,
+            "kind": "text",
+            "name": "Everyone edits the same can…",
+            "className": "text-style-sm",
+            "text": "Everyone edits the same canvas, with comments right on the design.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c18",
+            "parentId": "c10",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c19",
+            "parentId": "c18",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3590,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Real code",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "React and Tailwind",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Every change is code you can open as a pull request.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c20",
+            "parentId": "c19",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c21",
+            "parentId": "c20",
+            "order": 0,
+            "kind": "text",
+            "name": "Real code",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Real code",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c22",
+            "parentId": "c20",
+            "order": 1,
+            "kind": "text",
+            "name": "React and Tailwind",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "React and Tailwind",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c23",
+            "parentId": "c19",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c24",
+            "parentId": "c23",
+            "order": 0,
+            "kind": "text",
+            "name": "Every change is code you ca…",
+            "className": "text-style-sm",
+            "text": "Every change is code you can open as a pull request.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c25",
+            "parentId": "c10",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c26",
+            "parentId": "c25",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3834,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Ask the agent",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "Changes in plain words",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Describe a change and the agent updates the design and the code.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c27",
+            "parentId": "c26",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c28",
+            "parentId": "c27",
+            "order": 0,
+            "kind": "text",
+            "name": "Ask the agent",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Ask the agent",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c29",
+            "parentId": "c27",
+            "order": 1,
+            "kind": "text",
+            "name": "Changes in plain words",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "Changes in plain words",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c30",
+            "parentId": "c26",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c31",
+            "parentId": "c30",
+            "order": 0,
+            "kind": "text",
+            "name": "Describe a change and the a…",
+            "className": "text-style-sm",
+            "text": "Describe a change and the agent updates the design and the code.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c32",
+            "parentId": "c1",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-4 w-full px-10 py-20 bg-muted text-center max-md:px-4 max-md:py-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c33",
+            "parentId": "c32",
+            "order": 0,
+            "kind": "text",
+            "name": "Ready to ship with your tea…",
+            "className": "text-style-3xl font-semibold tracking-tight text-foreground max-md:text-style-2xl",
+            "text": "Ready to ship with your team?",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c34",
+            "parentId": "c32",
+            "order": 1,
+            "kind": "text",
+            "name": "Start free. Invite your tea…",
+            "className": "text-style-base text-foreground",
+            "text": "Start free. Invite your team when you're ready.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c35",
+            "parentId": "c32",
+            "order": 2,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Get started"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c36",
+            "parentId": "c1",
+            "order": 4,
+            "kind": "component",
+            "name": "Footer",
+            "className": "w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_86c3dc346c68",
+              "importPath": "../components/footer",
+              "exportName": "default",
+              "localName": "Footer"
+            }
+          },
+          {
+            "id": "c43",
+            "parentId": "c1",
+            "order": 5,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c44",
+            "parentId": "c43",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-auto max-w-full *:max-w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c45",
+            "parentId": "c44",
+            "order": 0,
+            "kind": "frame",
+            "name": "AlertDialog",
+            "className": "flex flex-col gap-4 rounded-lg border border-border bg-background p-6 shadow-lg w-[512px]",
+            "text": null,
+            "attrs": [
+              {
+                "name": "role",
+                "value": "alertdialog"
+              }
+            ],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "AlertDialog",
+              "path": "components/acme/components/ui/alert-dialog.tsx",
+              "workspaceId": "ws_3a0ac9a87e90",
+              "file": "components/acme/pages/home.tsx",
+              "at": 4968,
+              "props": [
+                {
+                  "name": "title",
+                  "value": null,
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": null,
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c46",
+            "parentId": "c45",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-2",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c47",
+            "parentId": "c46",
+            "order": 0,
+            "kind": "text",
+            "name": "Real code",
+            "className": "text-style-lg leading-none font-semibold text-foreground",
+            "text": "Real code",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c48",
+            "parentId": "c46",
+            "order": 1,
+            "kind": "text",
+            "name": "Every change is code you ca…",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "Every change is code you can open as a pull request.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c49",
+            "parentId": "c45",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex justify-end gap-2",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c50",
+            "parentId": "c49",
+            "order": 0,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "./button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Cancel"
+              },
+              "variant": "variantOutlineSizeDefault"
+            }
+          },
+          {
+            "id": "c51",
+            "parentId": "c49",
+            "order": 1,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "./button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Continue"
+              }
+            }
+          }
+        ]
+      },
+      "code": {
+        "key": "state@1086",
+        "value": "realCode"
+      }
+    },
+    {
+      "id": "state_12c83cfbdf67",
+      "name": "Ask the agent",
+      "canvas": {
+        "rootId": "c1",
+        "nodes": [
+          {
+            "id": "c1",
+            "parentId": null,
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "relative w-full min-h-screen flex flex-col bg-background",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c2_1",
+            "parentId": "c1",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center w-full bg-background border-b border-border",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3_2",
+            "parentId": "c2_1",
+            "order": 0,
+            "kind": "component",
+            "name": "Navbar",
+            "className": "flex-1 min-w-0 *:w-full *:border-b-0 *:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_47b7696bc307",
+              "importPath": "../components/navbar",
+              "exportName": "default",
+              "localName": "Navbar"
+            }
+          },
+          {
+            "id": "c4_3",
+            "parentId": "c2_1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-2 pr-10 cursor-pointer max-md:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c5_4",
+            "parentId": "c4_3",
+            "order": 0,
+            "kind": "component",
+            "name": "Label",
+            "className": "w-auto max-md:hidden",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_30c84e960117",
+              "importPath": "../components/ui/label",
+              "exportName": "default",
+              "localName": "Label",
+              "props": {
+                "text": "Dark mode"
+              }
+            }
+          },
+          {
+            "id": "c6_5",
+            "parentId": "c4_3",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c7_6",
+            "parentId": "c6_5",
+            "order": 0,
+            "kind": "button",
+            "name": "Switch",
+            "className": "inline-flex h-[18px] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 bg-input",
+            "text": "",
+            "attrs": [
+              {
+                "name": "type",
+                "value": "button"
+              },
+              {
+                "name": "role",
+                "value": "switch"
+              },
+              {
+                "name": "aria-checked",
+                "value": "false"
+              }
+            ],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Switch",
+              "path": "components/acme/components/ui/switch.tsx",
+              "workspaceId": "ws_54fd296e4ea3",
+              "file": "components/acme/pages/home.tsx",
+              "at": 1938,
+              "props": [
+                {
+                  "name": "initialState",
+                  "value": null,
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c8_7",
+            "parentId": "c7_6",
+            "order": 0,
+            "kind": "box",
+            "name": "Box",
+            "className": "block size-4 rounded-full bg-background shadow-sm transition-transform translate-x-0",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3",
+            "parentId": "c1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-6 px-10 pt-24 pb-20 text-center max-md:px-4 max-md:pt-12 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c4",
+            "parentId": "c3",
+            "order": 0,
+            "kind": "component",
+            "name": "Badge",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_826ed6b17dc4",
+              "importPath": "../components/ui/badge",
+              "exportName": "default",
+              "localName": "Badge",
+              "props": {
+                "label": "New: team workspaces"
+              },
+              "variant": "secondary"
+            }
+          },
+          {
+            "id": "c5",
+            "parentId": "c3",
+            "order": 1,
+            "kind": "text",
+            "name": "Plan, design and ship toget…",
+            "className": "max-w-[720px] text-style-6xl font-extrabold tracking-tight text-foreground max-md:text-style-4xl",
+            "text": "Plan, design and ship together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c6",
+            "parentId": "c3",
+            "order": 2,
+            "kind": "text",
+            "name": "Acme keeps your team's desi…",
+            "className": "max-w-[560px] text-style-lg text-muted-foreground max-md:text-style-base",
+            "text": "Acme keeps your team's designs, code and feedback in one place.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c7",
+            "parentId": "c3",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-3 max-md:flex-col max-md:w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c8",
+            "parentId": "c7",
+            "order": 0,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/pricing"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "See pricing"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c9",
+            "parentId": "c7",
+            "order": 1,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Create account"
+              },
+              "variant": "variantOutlineSizeLarge"
+            }
+          },
+          {
+            "id": "c10",
+            "parentId": "c1",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "grid grid-cols-3 gap-6 w-full max-w-[1080px] mx-auto px-10 pb-24 max-md:grid-cols-1 max-md:px-4 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c11",
+            "parentId": "c10",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c12",
+            "parentId": "c11",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3324,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Design together",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "One canvas for everyone",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Everyone edits the same canvas, with comments right on the design.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c13",
+            "parentId": "c12",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c14",
+            "parentId": "c13",
+            "order": 0,
+            "kind": "text",
+            "name": "Design together",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Design together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c15",
+            "parentId": "c13",
+            "order": 1,
+            "kind": "text",
+            "name": "One canvas for everyone",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "One canvas for everyone",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c16",
+            "parentId": "c12",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c17",
+            "parentId": "c16",
+            "order": 0,
+            "kind": "text",
+            "name": "Everyone edits the same can…",
+            "className": "text-style-sm",
+            "text": "Everyone edits the same canvas, with comments right on the design.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c18",
+            "parentId": "c10",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c19",
+            "parentId": "c18",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3590,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Real code",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "React and Tailwind",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Every change is code you can open as a pull request.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c20",
+            "parentId": "c19",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c21",
+            "parentId": "c20",
+            "order": 0,
+            "kind": "text",
+            "name": "Real code",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Real code",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c22",
+            "parentId": "c20",
+            "order": 1,
+            "kind": "text",
+            "name": "React and Tailwind",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "React and Tailwind",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c23",
+            "parentId": "c19",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c24",
+            "parentId": "c23",
+            "order": 0,
+            "kind": "text",
+            "name": "Every change is code you ca…",
+            "className": "text-style-sm",
+            "text": "Every change is code you can open as a pull request.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c25",
+            "parentId": "c10",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c26",
+            "parentId": "c25",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3834,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Ask the agent",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "Changes in plain words",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Describe a change and the agent updates the design and the code.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c27",
+            "parentId": "c26",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c28",
+            "parentId": "c27",
+            "order": 0,
+            "kind": "text",
+            "name": "Ask the agent",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Ask the agent",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c29",
+            "parentId": "c27",
+            "order": 1,
+            "kind": "text",
+            "name": "Changes in plain words",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "Changes in plain words",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c30",
+            "parentId": "c26",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c31",
+            "parentId": "c30",
+            "order": 0,
+            "kind": "text",
+            "name": "Describe a change and the a…",
+            "className": "text-style-sm",
+            "text": "Describe a change and the agent updates the design and the code.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c32",
+            "parentId": "c1",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-4 w-full px-10 py-20 bg-muted text-center max-md:px-4 max-md:py-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c33",
+            "parentId": "c32",
+            "order": 0,
+            "kind": "text",
+            "name": "Ready to ship with your tea…",
+            "className": "text-style-3xl font-semibold tracking-tight text-foreground max-md:text-style-2xl",
+            "text": "Ready to ship with your team?",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c34",
+            "parentId": "c32",
+            "order": 1,
+            "kind": "text",
+            "name": "Start free. Invite your tea…",
+            "className": "text-style-base text-foreground",
+            "text": "Start free. Invite your team when you're ready.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c35",
+            "parentId": "c32",
+            "order": 2,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Get started"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c36",
+            "parentId": "c1",
+            "order": 4,
+            "kind": "component",
+            "name": "Footer",
+            "className": "w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_86c3dc346c68",
+              "importPath": "../components/footer",
+              "exportName": "default",
+              "localName": "Footer"
+            }
+          },
+          {
+            "id": "c43",
+            "parentId": "c1",
+            "order": 5,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c44",
+            "parentId": "c43",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-auto max-w-full *:max-w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c45",
+            "parentId": "c44",
+            "order": 0,
+            "kind": "frame",
+            "name": "AlertDialog",
+            "className": "flex flex-col gap-4 rounded-lg border border-border bg-background p-6 shadow-lg w-[512px]",
+            "text": null,
+            "attrs": [
+              {
+                "name": "role",
+                "value": "alertdialog"
+              }
+            ],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "AlertDialog",
+              "path": "components/acme/components/ui/alert-dialog.tsx",
+              "workspaceId": "ws_3a0ac9a87e90",
+              "file": "components/acme/pages/home.tsx",
+              "at": 4968,
+              "props": [
+                {
+                  "name": "title",
+                  "value": null,
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": null,
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c46",
+            "parentId": "c45",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-2",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c47",
+            "parentId": "c46",
+            "order": 0,
+            "kind": "text",
+            "name": "Ask the agent",
+            "className": "text-style-lg leading-none font-semibold text-foreground",
+            "text": "Ask the agent",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c48",
+            "parentId": "c46",
+            "order": 1,
+            "kind": "text",
+            "name": "Describe a change and the a…",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "Describe a change and the agent updates the design and the code.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c49",
+            "parentId": "c45",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex justify-end gap-2",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c50",
+            "parentId": "c49",
+            "order": 0,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "./button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Cancel"
+              },
+              "variant": "variantOutlineSizeDefault"
+            }
+          },
+          {
+            "id": "c51",
+            "parentId": "c49",
+            "order": 1,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "./button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Continue"
+              }
+            }
+          }
+        ]
+      },
+      "code": {
+        "key": "state@1086",
+        "value": "askTheAgent"
+      }
+    },
+    {
+      "id": "state_2e26803162cf",
+      "name": "Dark mode",
+      "canvas": {
+        "rootId": "c1",
+        "nodes": [
+          {
+            "id": "c1",
+            "parentId": null,
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "relative w-full min-h-screen flex flex-col bg-background text-foregrounddark",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c2_1",
+            "parentId": "c1",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center w-full bg-background border-b border-border",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3_2",
+            "parentId": "c2_1",
+            "order": 0,
+            "kind": "component",
+            "name": "Navbar",
+            "className": "flex-1 min-w-0 *:w-full *:border-b-0 *:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_47b7696bc307",
+              "importPath": "../components/navbar",
+              "exportName": "default",
+              "localName": "Navbar"
+            }
+          },
+          {
+            "id": "c4_3",
+            "parentId": "c2_1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-2 pr-10 cursor-pointer max-md:pr-4",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c5_4",
+            "parentId": "c4_3",
+            "order": 0,
+            "kind": "component",
+            "name": "Label",
+            "className": "w-auto max-md:hidden",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_30c84e960117",
+              "importPath": "../components/ui/label",
+              "exportName": "default",
+              "localName": "Label",
+              "props": {
+                "text": "Dark mode"
+              }
+            }
+          },
+          {
+            "id": "c6_5",
+            "parentId": "c4_3",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c7_6",
+            "parentId": "c6_5",
+            "order": 0,
+            "kind": "button",
+            "name": "Switch",
+            "className": "inline-flex h-[18px] w-8 shrink-0 items-center rounded-full border border-transparent shadow-xs transition-all outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 bg-primary",
+            "text": "",
+            "attrs": [
+              {
+                "name": "type",
+                "value": "button"
+              },
+              {
+                "name": "role",
+                "value": "switch"
+              },
+              {
+                "name": "aria-checked",
+                "value": "true"
+              }
+            ],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Switch",
+              "path": "components/acme/components/ui/switch.tsx",
+              "workspaceId": "ws_54fd296e4ea3",
+              "file": "components/acme/pages/home.tsx",
+              "at": 1938,
+              "props": [
+                {
+                  "name": "initialState",
+                  "value": null,
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c8_7",
+            "parentId": "c7_6",
+            "order": 0,
+            "kind": "box",
+            "name": "Box",
+            "className": "block size-4 rounded-full bg-background shadow-sm transition-transform translate-x-[14px]",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c3",
+            "parentId": "c1",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-6 px-10 pt-24 pb-20 text-center max-md:px-4 max-md:pt-12 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c4",
+            "parentId": "c3",
+            "order": 0,
+            "kind": "component",
+            "name": "Badge",
+            "className": "w-auto",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_826ed6b17dc4",
+              "importPath": "../components/ui/badge",
+              "exportName": "default",
+              "localName": "Badge",
+              "props": {
+                "label": "New: team workspaces"
+              },
+              "variant": "secondary"
+            }
+          },
+          {
+            "id": "c5",
+            "parentId": "c3",
+            "order": 1,
+            "kind": "text",
+            "name": "Plan, design and ship toget…",
+            "className": "max-w-[720px] text-style-6xl font-extrabold tracking-tight text-foreground max-md:text-style-4xl",
+            "text": "Plan, design and ship together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c6",
+            "parentId": "c3",
+            "order": 2,
+            "kind": "text",
+            "name": "Acme keeps your team's desi…",
+            "className": "max-w-[560px] text-style-lg text-muted-foreground max-md:text-style-base",
+            "text": "Acme keeps your team's designs, code and feedback in one place.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c7",
+            "parentId": "c3",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex items-center gap-3 max-md:flex-col max-md:w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c8",
+            "parentId": "c7",
+            "order": 0,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/pricing"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "See pricing"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c9",
+            "parentId": "c7",
+            "order": 1,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Create account"
+              },
+              "variant": "variantOutlineSizeLarge"
+            }
+          },
+          {
+            "id": "c10",
+            "parentId": "c1",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "grid grid-cols-3 gap-6 w-full max-w-[1080px] mx-auto px-10 pb-24 max-md:grid-cols-1 max-md:px-4 max-md:pb-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c11",
+            "parentId": "c10",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c12",
+            "parentId": "c11",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3324,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Design together",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "One canvas for everyone",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Everyone edits the same canvas, with comments right on the design.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c13",
+            "parentId": "c12",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c14",
+            "parentId": "c13",
+            "order": 0,
+            "kind": "text",
+            "name": "Design together",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Design together",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c15",
+            "parentId": "c13",
+            "order": 1,
+            "kind": "text",
+            "name": "One canvas for everyone",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "One canvas for everyone",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c16",
+            "parentId": "c12",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c17",
+            "parentId": "c16",
+            "order": 0,
+            "kind": "text",
+            "name": "Everyone edits the same can…",
+            "className": "text-style-sm",
+            "text": "Everyone edits the same canvas, with comments right on the design.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c18",
+            "parentId": "c10",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c19",
+            "parentId": "c18",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3590,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Real code",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "React and Tailwind",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Every change is code you can open as a pull request.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c20",
+            "parentId": "c19",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c21",
+            "parentId": "c20",
+            "order": 0,
+            "kind": "text",
+            "name": "Real code",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Real code",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c22",
+            "parentId": "c20",
+            "order": 1,
+            "kind": "text",
+            "name": "React and Tailwind",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "React and Tailwind",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c23",
+            "parentId": "c19",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c24",
+            "parentId": "c23",
+            "order": 0,
+            "kind": "text",
+            "name": "Every change is code you ca…",
+            "className": "text-style-sm",
+            "text": "Every change is code you can open as a pull request.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c25",
+            "parentId": "c10",
+            "order": 2,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "w-full *:w-full cursor-pointer",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c26",
+            "parentId": "c25",
+            "order": 0,
+            "kind": "frame",
+            "name": "Card",
+            "className": "flex flex-col gap-6 w-[360px] rounded-xl border border-border bg-card py-6 text-card-foreground shadow-sm",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "usesComponent": {
+              "name": "Card",
+              "path": "components/acme/components/ui/card.tsx",
+              "workspaceId": "ws_a107fcb1100c",
+              "file": "components/acme/pages/home.tsx",
+              "at": 3834,
+              "props": [
+                {
+                  "name": "title",
+                  "value": "Ask the agent",
+                  "set": true
+                },
+                {
+                  "name": "description",
+                  "value": "Changes in plain words",
+                  "set": true
+                },
+                {
+                  "name": "content",
+                  "value": "Describe a change and the agent updates the design and the code.",
+                  "set": true
+                },
+                {
+                  "name": "showFooter",
+                  "value": "false",
+                  "set": true
+                }
+              ]
+            }
+          },
+          {
+            "id": "c27",
+            "parentId": "c26",
+            "order": 0,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col gap-1.5 px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c28",
+            "parentId": "c27",
+            "order": 0,
+            "kind": "text",
+            "name": "Ask the agent",
+            "className": "text-style-base leading-none font-semibold",
+            "text": "Ask the agent",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c29",
+            "parentId": "c27",
+            "order": 1,
+            "kind": "text",
+            "name": "Changes in plain words",
+            "className": "text-style-sm text-muted-foreground",
+            "text": "Changes in plain words",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c30",
+            "parentId": "c26",
+            "order": 1,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "px-6",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c31",
+            "parentId": "c30",
+            "order": 0,
+            "kind": "text",
+            "name": "Describe a change and the a…",
+            "className": "text-style-sm",
+            "text": "Describe a change and the agent updates the design and the code.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c32",
+            "parentId": "c1",
+            "order": 3,
+            "kind": "frame",
+            "name": "Frame",
+            "className": "flex flex-col items-center gap-4 w-full px-10 py-20 bg-muted text-center max-md:px-4 max-md:py-12",
+            "text": null,
+            "attrs": [],
+            "figmaId": null
+          },
+          {
+            "id": "c33",
+            "parentId": "c32",
+            "order": 0,
+            "kind": "text",
+            "name": "Ready to ship with your tea…",
+            "className": "text-style-3xl font-semibold tracking-tight text-foreground max-md:text-style-2xl",
+            "text": "Ready to ship with your team?",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c34",
+            "parentId": "c32",
+            "order": 1,
+            "kind": "text",
+            "name": "Start free. Invite your tea…",
+            "className": "text-style-base text-foreground",
+            "text": "Start free. Invite your team when you're ready.",
+            "attrs": [],
+            "figmaId": null,
+            "tag": "p"
+          },
+          {
+            "id": "c35",
+            "parentId": "c32",
+            "order": 2,
+            "kind": "component",
+            "name": "Button",
+            "className": "w-auto max-md:w-full",
+            "text": null,
+            "attrs": [
+              {
+                "name": "href",
+                "value": "/sign-up"
+              }
+            ],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_9169ad6fc665",
+              "importPath": "../components/ui/button",
+              "exportName": "default",
+              "localName": "Button",
+              "props": {
+                "label": "Get started"
+              },
+              "variant": "variantDefaultSizeLarge"
+            }
+          },
+          {
+            "id": "c36",
+            "parentId": "c1",
+            "order": 4,
+            "kind": "component",
+            "name": "Footer",
+            "className": "w-full",
+            "text": null,
+            "attrs": [],
+            "figmaId": null,
+            "componentRef": {
+              "workspaceId": "ws_86c3dc346c68",
+              "importPath": "../components/footer",
+              "exportName": "default",
+              "localName": "Footer"
+            }
+          }
+        ]
+      },
+      "code": {
+        "key": "darkMode@1312",
+        "value": true
+      }
+    }
+  ],
+  "connections": [
+    {
+      "id": "c_6d618a7d27b8",
+      "fromStateId": "default",
+      "fromNodeId": "c4_3",
+      "trigger": "click",
+      "toStateId": "state_2e26803162cf",
+      "fromCode": true
+    },
+    {
+      "id": "c_05330bd76e73",
+      "fromStateId": "default",
+      "fromNodeId": "c11",
+      "trigger": "click",
+      "toStateId": "state_21a6bba2491b",
+      "fromCode": true
+    },
+    {
+      "id": "c_8ce22163dc0e",
+      "fromStateId": "default",
+      "fromNodeId": "c18",
+      "trigger": "click",
+      "toStateId": "state_966cdd0c1a58",
+      "fromCode": true
+    },
+    {
+      "id": "c_201d8d5b3e21",
+      "fromStateId": "default",
+      "fromNodeId": "c25",
+      "trigger": "click",
+      "toStateId": "state_12c83cfbdf67",
+      "fromCode": true
+    },
+    {
+      "id": "c_bb6a1c2e320c",
+      "fromStateId": "state_21a6bba2491b",
+      "fromNodeId": "c4_3",
+      "trigger": "click",
+      "toStateId": "state_2e26803162cf",
+      "fromCode": true
+    },
+    {
+      "id": "c_20985a61d78e",
+      "fromStateId": "state_21a6bba2491b",
+      "fromNodeId": "c18",
+      "trigger": "click",
+      "toStateId": "state_966cdd0c1a58",
+      "fromCode": true
+    },
+    {
+      "id": "c_b91a408bb66c",
+      "fromStateId": "state_21a6bba2491b",
+      "fromNodeId": "c25",
+      "trigger": "click",
+      "toStateId": "state_12c83cfbdf67",
+      "fromCode": true
+    },
+    {
+      "id": "c_8fcecb64781e",
+      "fromStateId": "state_21a6bba2491b",
+      "fromNodeId": "c44",
+      "trigger": "click",
+      "toStateId": "default",
+      "fromCode": true
+    },
+    {
+      "id": "c_bafc2dc58ab0",
+      "fromStateId": "state_21a6bba2491b",
+      "fromNodeId": "c43",
+      "trigger": "click",
+      "toStateId": "default",
+      "fromCode": true
+    },
+    {
+      "id": "c_461b3ad3d447",
+      "fromStateId": "state_966cdd0c1a58",
+      "fromNodeId": "c4_3",
+      "trigger": "click",
+      "toStateId": "state_2e26803162cf",
+      "fromCode": true
+    },
+    {
+      "id": "c_0825a5e7c224",
+      "fromStateId": "state_966cdd0c1a58",
+      "fromNodeId": "c11",
+      "trigger": "click",
+      "toStateId": "state_21a6bba2491b",
+      "fromCode": true
+    },
+    {
+      "id": "c_0059ef1901a4",
+      "fromStateId": "state_966cdd0c1a58",
+      "fromNodeId": "c25",
+      "trigger": "click",
+      "toStateId": "state_12c83cfbdf67",
+      "fromCode": true
+    },
+    {
+      "id": "c_9079a9f6248c",
+      "fromStateId": "state_966cdd0c1a58",
+      "fromNodeId": "c44",
+      "trigger": "click",
+      "toStateId": "default",
+      "fromCode": true
+    },
+    {
+      "id": "c_1544134b7450",
+      "fromStateId": "state_966cdd0c1a58",
+      "fromNodeId": "c43",
+      "trigger": "click",
+      "toStateId": "default",
+      "fromCode": true
+    },
+    {
+      "id": "c_778e714bb0ed",
+      "fromStateId": "state_12c83cfbdf67",
+      "fromNodeId": "c4_3",
+      "trigger": "click",
+      "toStateId": "state_2e26803162cf",
+      "fromCode": true
+    },
+    {
+      "id": "c_84f706a5a513",
+      "fromStateId": "state_12c83cfbdf67",
+      "fromNodeId": "c11",
+      "trigger": "click",
+      "toStateId": "state_21a6bba2491b",
+      "fromCode": true
+    },
+    {
+      "id": "c_afcfbfe454e4",
+      "fromStateId": "state_12c83cfbdf67",
+      "fromNodeId": "c18",
+      "trigger": "click",
+      "toStateId": "state_966cdd0c1a58",
+      "fromCode": true
+    },
+    {
+      "id": "c_331e9e537dbc",
+      "fromStateId": "state_12c83cfbdf67",
+      "fromNodeId": "c44",
+      "trigger": "click",
+      "toStateId": "default",
+      "fromCode": true
+    },
+    {
+      "id": "c_e859d7f59fcf",
+      "fromStateId": "state_12c83cfbdf67",
+      "fromNodeId": "c43",
+      "trigger": "click",
+      "toStateId": "default",
+      "fromCode": true
+    },
+    {
+      "id": "c_c67cf40e1dfc",
+      "fromStateId": "state_2e26803162cf",
+      "fromNodeId": "c4_3",
+      "trigger": "click",
+      "toStateId": "default",
+      "fromCode": true
+    }
+  ]
+}
